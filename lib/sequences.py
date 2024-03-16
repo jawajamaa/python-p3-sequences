@@ -24,3 +24,18 @@ def print_fibonacci(length):
                 fib_seq.append(sum)
         print(fib_seq)
         
+
+# Below is Chat GPT 3.5 solution as I asked it to only give me hints to create my working function that I finally solved, but it it considerably more verbose, though both pass all tests...
+        
+# def print_fibonacci(length):
+#     fib_seq = []
+    
+#     if length >= 1:
+#         fib_seq.append(0)
+#     if length >= 2:
+#         fib_seq.append(1)
+    
+#     for idx in range(2, length):
+#         fib_seq.append(fib_seq[-2] + fib_seq[-1])
+    
+#     print(fib_seq)
